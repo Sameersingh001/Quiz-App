@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+
+    <div class="Starting">
+
+        <h1>Quiz Start</h1>
+        <div>
+            <input type="text" placeholder="Enter Your Name" class="inputbox">
+            <button class="submit">Submit</button>
+        </div>
+
+         <div class="rules">
+                <h1>Rules of Game</h1>
+                <li id="rule">🧑‍💼 First, enter your name to start the quiz. </li>
+                <li id="rule">✅ Select an answer from the given options for each question.</li>
+                <li id="rule">👉 Click the “Next” button to go to the next question after selecting an option.</li>
+                <li id="rule">🚫 Do not click “Submit” before completing all questions.</li>
+                <li id="rule">⛔ Clicking “Submit” early may not show your complete score.</li>
+                <li id="rule">📵 If options are not visible, then click the “Submit” button once to check your score.</li>
+                <li id="rule">📊 Your final score will be shown after submission.</li>
+        </div>
+
+    </div>
+
+    
+
+    <div class="quiz-container">
+     
+        <div class="peraDiv">  
+            <!-- <p id="pera">questionBox</p> -->
+        </div>
+        <div class="username">
+            <h2 class="Name" style="font-size: 25px; padding: 5px; margin-left: 10px;" ></h2>
+        </div>
+        <h1 class="Quizapp" style="margin: 20px; border-bottom: 4px solid blue; color: blue; font-weight: 800; font-family: sans-serif;">Quiz APP</h1>
+        <div class="questionBox">
+            <h2 class="question"></h2>
+        </div>
+        <ul class="list-container">
+                <!-- list appere here -->
+        </ul>
+
+        <button class="next">Next</button>
+        <button class="submitbtn">Submit</button>
+
+
+        <h2 class="hide"> SCORE : <span class="score"></span> </h2>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+</html>
